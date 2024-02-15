@@ -38,11 +38,13 @@ public class Cricketer implements Comparable<Cricketer> {
 
     public void setCountry(String country) {
         this.country = country;
+        System.out.println("error");
     }
 
     @Override
     public int compareTo(Cricketer other) {
         return this.name.compareTo(other.name);
+        
     }
 }
 
